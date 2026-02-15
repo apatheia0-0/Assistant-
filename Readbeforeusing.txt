@@ -1,0 +1,17 @@
+BEFORE USING IT PLEASE CHANGE THE FOLLOWING THINGS OR DEV(friday) WILL NOT RUN.
+
+1. It is recommended to run the python in a virtual environment.
+2. The following program is running on python 3.10 if it does not work on later version please use 3.10
+3. In main.py on line 28 "model path" please change the model path to where you installed the model
+   example = model_path = r"your_directory\vosk-model-small-en-us-0.15" 
+4. Assistant name is friday for better speech recognition. Dev is just the name of the program with version v3
+5. Also check the ss folder if it is working or not.
+6. Recheck everthing, if a library is missing please install it, and check the directories.
+7. It is recommended to run it first in VScode.
+8. The model i am using is "vosk" for speech recognition, its a great local model less intensive than "whisper"
+9. The tts model is "sapi" so the following code will only work for windows
+10. You are free to upgrade this program however you like and making it more easier to work on local.
+11. You can also contact me on discord if you find some good optimization of code in it.
+12. ChatGpt was only used in this program on the code to import vosk model from line 30 - 50 in main.py and it still 
+took it 2 hours giving me a buggy code so i fixed some of it mannualy.
+13. Thanks to vosk, chatgpt, reddit from where i took inspiration from. 
